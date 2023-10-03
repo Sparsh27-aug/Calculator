@@ -21,7 +21,7 @@ public class Calculator {
 	String operations,answer;
 
 	/**
-	 * Launch the application.
+	 * Start the application.
 	 */
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
@@ -204,7 +204,7 @@ public class Calculator {
 		b0.setBounds(10, 304, 60, 60);
 		frame.getContentPane().add(b0);
 		
-		//...........operators..........
+		//..........Operators.........
 		
 		JButton btao = new JButton("+");
 		btao.addActionListener(new ActionListener() {
